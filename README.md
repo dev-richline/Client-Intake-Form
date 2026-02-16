@@ -1,4 +1,4 @@
-# Richline — a (نموذج استلام عميل جديد)
+# Richline — a (Client Intake Form)
 
 This repository contains the official client intake form used by **Richline** to onboard new clients.
 
