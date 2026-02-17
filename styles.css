@@ -35,7 +35,7 @@ body {
     overflow: hidden;
 }
 
-/* --- تصميم رأس الصفحة الجديد (Hero Header) --- */
+/* --- تصميم رأس الصفحة (Hero Header) --- */
 .hero-header {
     position: relative;
     height: 260px;
@@ -132,7 +132,7 @@ h2 {
     border-right: 5px solid var(--color-primary);
 }
 
-/* --- 🔥 NEW: نظام الشبكة للحقول (Grid System) --- */
+/* --- 🔥 نظام الشبكة للحقول (Grid System) --- */
 .form-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* عمودين متجاوبين */
@@ -195,7 +195,33 @@ textarea {
     overflow-x: auto;
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
-    margin-top: 20px;
+    margin-top: 5px;
+}
+
+/* --- 🔥 مؤشر التمرير للجداول (جديد) --- */
+.table-scroll-hint {
+    display: none; /* مخفي افتراضياً على الشاشات الكبيرة */
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: var(--color-accent);
+    background-color: rgba(26, 115, 232, 0.08);
+    padding: 6px 10px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.table-scroll-hint svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--color-primary);
+    animation: swipe-anim 2s infinite ease-in-out;
+}
+
+@keyframes swipe-anim {
+    0%, 100% { transform: translateX(0); opacity: 0.6; }
+    50% { transform: translateX(-4px); opacity: 1; }
 }
 
 table {
@@ -287,7 +313,7 @@ button[type="submit"]:disabled {
     border: 1px solid #f5c6cb;
 }
 
-/* --- Honeypot Anti-Spam (يجب أن يكون مخفيًا تمامًا) --- */
+/* --- Honeypot Anti-Spam (مخفي تماماً) --- */
 .honey-pot {
     display: none !important;
     opacity: 0;
@@ -296,7 +322,7 @@ button[type="submit"]:disabled {
     top: -9999px;
 }
 
-/* --- روابط Richline و WhatsApp (Footer) --- */
+/* --- روابط Richline و WhatsApp --- */
 .contact-footer {
     margin-top: 25px;
     padding-top: 20px;
@@ -329,7 +355,7 @@ footer {
     color: #777;
 }
 
-/* --- التجاوبية (Responsive Design) --- */
+/* --- التجاوبية --- */
 @media (max-width: 768px) {
     .form-container {
         margin: 20px;
@@ -340,5 +366,10 @@ footer {
     }
     .section-card {
         padding: 20px;
+    }
+    
+    /* إظهار مؤشر التمرير في الموبايل */
+    .table-scroll-hint {
+        display: flex;
     }
 }
