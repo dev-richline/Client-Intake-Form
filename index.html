@@ -9,7 +9,7 @@
     <title>نموذج استلام عميل جديد</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <!-- تأكد من أن ملف style.css موجود في نفس المجلد -->
+    <!-- Link to external CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -53,52 +53,52 @@
                     <h2>القسم الأول: معلومات عامة عن العميل</h2>
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="brand_name">اسم البراند</label>
+                            <label for="brand_name">اسم العلامة التجارية (Brand Name)</label>
                             <input type="text" id="brand_name" name="brand_name" placeholder="ادخل اسم البراند...">
                         </div>
 
                         <div class="form-group">
-                            <label for="activity_field">النشاط / المجال</label>
+                            <label for="activity_field">طبيعة النشاط / المجال</label>
                             <input type="text" id="activity_field" name="activity_field" placeholder="ادخل النشاط أو المجال...">
                         </div>
 
                         <div class="form-group">
-                            <label for="city">المدينة</label>
+                            <label for="city">المدينة / المقر الرئيسي</label>
                             <input type="text" id="city" name="city" placeholder="ادخل المدينة...">
                         </div>
                         
                         <div class="form-group">
-                            <label for="start_date">تاريخ بداية النشاط</label>
+                            <label for="start_date">تاريخ انطلاق النشاط</label>
                             <input type="text" id="start_date" name="start_date" placeholder="مثال: 2020 أونلاين...">
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="contact_persons">الأشخاص المسؤولون عن التواصل</label>
+                            <label for="contact_persons">مسؤولو التواصل (الاسم / الرقم / المنصب)</label>
                             <textarea id="contact_persons" name="contact_persons" rows="3" placeholder="مثال: فلان الفلاني / 05xxxxxxx / مسؤول مالي..."></textarea>
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="prev_agency_experience">سابقة التعاون مع شركات تسويق؟</label>
+                            <label for="prev_agency_experience">سابقة التعاون مع شركات تسويق (تجربة سابقة)</label>
                             <textarea id="prev_agency_experience" name="prev_agency_experience" rows="3" placeholder="نعم / لا، صف التجربة..."></textarea>
                         </div>
 
                         <div class="form-group">
-                            <label for="client_marketing_experience">هل لدى العميل خبرة في التسويق؟</label>
-                            <input type="text" id="client_marketing_experience" name="client_marketing_experience" placeholder="نعم / لا...">
+                            <label for="client_marketing_experience">مستوى الخبرة التسويقية الحالية</label>
+                            <input type="text" id="client_marketing_experience" name="client_marketing_experience" placeholder="نعم (بسيطة / متوسطة / متقدمة) / لا...">
                         </div>
 
                         <div class="form-group">
-                            <label for="service_scope">نطاق الخدمة</label>
+                            <label for="service_scope">نطاق تقديم الخدمة</label>
                             <input type="text" id="service_scope" name="service_scope" placeholder="محلي / دولي...">
                         </div>
 
                         <div class="form-group">
-                            <label for="includes_shipping">هل يشمل توصيل / شحن؟</label>
+                            <label for="includes_shipping">هل تشمل الخدمة شحن/توصيل؟</label>
                             <input type="text" id="includes_shipping" name="includes_shipping" placeholder="نعم / لا...">
                         </div>
 
                         <div class="form-group">
-                            <label for="shipping_scope">نطاق التوصيل</label>
+                            <label for="shipping_scope">نطاق التغطية الجغرافية للتوصيل</label>
                             <input type="text" id="shipping_scope" name="shipping_scope" placeholder="ادخل المدن أو الدول...">
                         </div>
                     </div>
@@ -106,7 +106,7 @@
 
                 <!-- 🟦 القسم الثاني: الأهداف -->
                 <div class="section-card">
-                    <h2>القسم الثاني: الأهداف</h2>
+                    <h2>القسم الثاني: الأهداف الاستراتيجية</h2>
                     <div class="form-grid">
                         <div class="form-group full-width">
                             <label for="main_goal">الهدف الرئيسي من التعاون</label>
@@ -114,38 +114,38 @@
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="digital_goals">أهداف رقمية (ROAS / مبيعات)</label>
+                            <label for="digital_goals">الأهداف الرقمية (ROAS / مبيعات / زيارات)</label>
                             <textarea id="digital_goals" name="digital_goals" rows="3" placeholder="مثال: تحقيق ROAS 5x، 100 عملية بيع يوميًا..."></textarea>
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="kpi">أهم مؤشر نجاح بالنسبة للعميل؟</label>
-                            <input type="text" id="kpi" name="kpi" placeholder="العائد على الاستثمار، عدد العملاء الجدد...">
+                            <label for="kpi">مؤشرات الأداء الرئيسية (KPIs) لنجاح الحملة</label>
+                            <input type="text" id="kpi" name="kpi" placeholder="العائد على الاستثمار، تكلفة الاستحواذ على عميل...">
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم الثالث: المنتجات والجمهور -->
                 <div class="section-card">
-                    <h2>القسم الثالث: المنتجات والجمهور</h2>
+                    <h2>القسم الثالث: المنتجات والجمهور المستهدف</h2>
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="product_type">نوع المنتجات / الخدمات</label>
-                            <input type="text" id="product_type" name="product_type" placeholder="ملابس، إلكترونيات...">
+                            <label for="product_type">نوع المنتجات / الخدمات المقدمة</label>
+                            <input type="text" id="product_type" name="product_type" placeholder="ملابس، إلكترونيات، عقارات...">
                         </div>
 
                         <div class="form-group">
-                            <label for="is_dropshipping">هل العمل Dropshipping؟</label>
+                            <label for="is_dropshipping">هل يعتمد نموذج العمل على الدروب شيبينغ (Dropshipping)؟</label>
                             <input type="text" id="is_dropshipping" name="is_dropshipping" placeholder="نعم / لا...">
                         </div>
 
                         <div class="form-group">
-                            <label for="best_selling_product">أكثر منتج مبيعًا</label>
+                            <label for="best_selling_product">المنتج الأكثر مبيعاً (Best Seller)</label>
                             <input type="text" id="best_selling_product" name="best_selling_product" placeholder="ادخل اسم المنتج...">
                         </div>
 
                         <div class="form-group">
-                            <label for="product_count">عدد المنتجات المتوفرة</label>
+                            <label for="product_count">عدد المنتجات المتوفرة (SKUs)</label>
                             <input type="text" id="product_count" name="product_count" placeholder="مثال: 50 منتج...">
                         </div>
 
@@ -155,194 +155,388 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="target_age_group">الفئة العمرية</label>
+                            <label for="target_age_group">الفئة العمرية المستهدفة</label>
                             <input type="text" id="target_age_group" name="target_age_group" placeholder="مثال: 18-25...">
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="target_social_class">الفئة الاجتماعية</label>
-                            <input type="text" id="target_social_class" name="target_social_class" placeholder="متوسطة، فوق المتوسطة...">
+                            <label for="target_social_class">الشريحة الاجتماعية والاقتصادية</label>
+                            <input type="text" id="target_social_class" name="target_social_class" placeholder="متوسطة، فوق المتوسطة، فاخرة...">
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="target_interests">الاهتمامات</label>
-                            <textarea id="target_interests" name="target_interests" rows="3" placeholder="التسوق، التكنولوجيا، الرياضة..."></textarea>
+                            <label for="target_interests">اهتمامات الجمهور المستهدف</label>
+                            <textarea id="target_interests" name="target_interests" rows="3" placeholder="التسوق، التقنية، الرياضة، الصحة..."></textarea>
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="non_target_segments">شرائح غير مستهدفة</label>
+                            <label for="non_target_segments">شرائح مستبعدة (غير مستهدفة)</label>
                             <textarea id="non_target_segments" name="non_target_segments" rows="3" placeholder="ادخل الشرائح التي لا ترغب باستهدافها..."></textarea>
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="audience_focus_areas">مناطق تركيز الجمهور</label>
-                            <textarea id="audience_focus_areas" name="audience_focus_areas" rows="3" placeholder="المدن أو الأحياء الرئيسية..."></textarea>
+                            <label for="audience_focus_areas">مناطق التركيز الجغرافي</label>
+                            <textarea id="audience_focus_areas" name="audience_focus_areas" rows="3" placeholder="المدن أو الأحياء ذات الأولوية..."></textarea>
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم الرابع: المنافسون والسوشيال ميديا -->
                 <div class="section-card">
-                    <h2>القسم الرابع: المنافسون والسوشيال ميديا</h2>
+                    <h2>القسم الرابع: المنافسون والتواجد الرقمي</h2>
                     <div class="form-grid">
                         <div class="form-group full-width">
-                            <label for="good_competitors">أمثلة على منافسين يعجبك أسلوبهم</label>
-                            <textarea id="good_competitors" name="good_competitors" rows="3" placeholder="الصق الروابط هنا..."></textarea>
+                            <label for="good_competitors">منافسون بأسلوب مميز (Benchmark)</label>
+                            <textarea id="good_competitors" name="good_competitors" rows="3" placeholder="روابط لمنافسين يعجبك أداؤهم..."></textarea>
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="bad_competitors">أمثلة على منافسين لا يعجبك أسلوبهم</label>
-                            <textarea id="bad_competitors" name="bad_competitors" rows="3" placeholder="الصق الروابط هنا..."></textarea>
+                            <label for="bad_competitors">منافسون بأسلوب غير مفضل</label>
+                            <textarea id="bad_competitors" name="bad_competitors" rows="3" placeholder="روابط لمنافسين لا تفضل أسلوبهم..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="competitor_type">تصنيف المنافسين</label>
+                            <input type="text" id="competitor_type" name="competitor_type" placeholder="مباشرون / Benchmark...">
+                        </div>
+
+                        <!-- ⚡ جدول حسابات التواصل الاجتماعي -->
+                        <div class="full-width">
+                            <label style="margin-bottom:10px;">حسابات التواصل الاجتماعي وبيانات الوصول</label>
+                            
+                            <!-- 🔥 مؤشر سحب الجدول (يظهر فقط في الموبايل) -->
+                            <div class="table-scroll-hint">
+                                <svg viewBox="0 0 24 24"><path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"/></svg>
+                                <span>اسحب الجدول يميناً ويساراً لعرض كامل المحتوى</span>
+                            </div>
+
+                            <div class="table-container">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>المنصة</th>
+                                            <th>رابط الحساب (Link)</th>
+                                            <th>بيانات الدخول / الصلاحيات (Access)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Instagram</td>
+                                            <td><input type="text" name="sm_instagram_link" placeholder="رابط الحساب..."></td>
+                                            <td><input type="text" name="sm_instagram_access" placeholder="اليوزر / حالة الدخول..."></td>
+                                        </tr>
+                                        <tr>
+                                            <td>TikTok</td>
+                                            <td><input type="text" name="sm_tiktok_link" placeholder="رابط الحساب..."></td>
+                                            <td><input type="text" name="sm_tiktok_access" placeholder="اليوزر / حالة الدخول..."></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Snapchat</td>
+                                            <td><input type="text" name="sm_snapchat_link" placeholder="رابط الحساب..."></td>
+                                            <td><input type="text" name="sm_snapchat_access" placeholder="اليوزر / حالة الدخول..."></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twitter (X)</td>
+                                            <td><input type="text" name="sm_twitter_link" placeholder="رابط الحساب..."></td>
+                                            <td><input type="text" name="sm_twitter_access" placeholder="اليوزر / حالة الدخول..."></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facebook</td>
+                                            <td><input type="text" name="sm_facebook_link" placeholder="رابط الصفحة..."></td>
+                                            <td><input type="text" name="sm_facebook_access" placeholder="صلاحيات الأدمن..."></td>
+                                        </tr>
+                                        <tr>
+                                            <td>أخرى</td>
+                                            <td><input type="text" name="sm_other_link" placeholder="رابط..."></td>
+                                            <td><input type="text" name="sm_other_access" placeholder="بيانات الدخول..."></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="social_links">روابط الحسابات (Instagram / TikTok / ...)</label>
-                            <textarea id="social_links" name="social_links" rows="3" placeholder="الصق الروابط هنا..."></textarea>
+                            <label for="s4_materials_drive_link">رابط الأصول الرقمية والمواد (Google Drive / Dropbox)</label>
+                            <input type="text" id="s4_materials_drive_link" name="s4_materials_drive_link" placeholder="رابط المجلد السحابي...">
                         </div>
 
                         <div class="form-group">
-                            <label for="website_link">الموقع الإلكتروني</label>
-                            <input type="text" id="website_link" name="website_link" placeholder="رابط الموقع إن وجد...">
+                            <label for="profit_margin">متوسط هامش الربح (%)</label>
+                            <input type="text" id="profit_margin" name="profit_margin" placeholder="نسبة مئوية تقريبية...">
                         </div>
 
                         <div class="form-group">
-                            <label for="store_link">المتجر الإلكتروني</label>
-                            <input type="text" id="store_link" name="store_link" placeholder="رابط المتجر ونوعه...">
+                            <label for="has_delivery">توفر خدمة التوصيل</label>
+                            <input type="text" id="has_delivery" name="has_delivery" placeholder="نعم / لا...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="delivery_regions">نطاق ومناطق التوصيل</label>
+                            <input type="text" id="delivery_regions" name="delivery_regions" placeholder="كافة المدن / مناطق محددة...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="delivery_start_price">تكلفة التوصيل (يبدأ من)</label>
+                            <input type="text" id="delivery_start_price" name="delivery_start_price" placeholder="أقل سعر للشحن...">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="store_story">نبذة تعريفية عن المتجر (قصة العلامة التجارية)</label>
+                            <textarea id="store_story" name="store_story" rows="4" placeholder="اكتب قصة المتجر باختصار والرسالة التي تود إيصالها..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="website_link">الموقع الإلكتروني الرسمي</label>
+                            <input type="text" id="website_link" name="website_link" placeholder="رابط الموقع...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="store_link">رابط المتجر الإلكتروني (سلة/زد/ووردبريس)</label>
+                            <input type="text" id="store_link" name="store_link" placeholder="رابط المتجر...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="google_tools">أدوات Google (Analytics / Ads ...)</label>
+                            <input type="text" id="google_tools" name="google_tools" placeholder="هل تستخدم أي منها؟">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="is_verified">هل الصفحات موثقة؟</label>
+                            <input type="text" id="is_verified" name="is_verified" placeholder="نعم / لا...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="want_verification">هل ترغب في التوثيق؟</label>
+                            <input type="text" id="want_verification" name="want_verification" placeholder="نعم / لا...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="accounts_creation_date">تاريخ إنشاء الحسابات</label>
+                            <input type="text" id="accounts_creation_date" name="accounts_creation_date" placeholder="السنة التقريبية...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bought_followers">هل تم شراء متابعين سابقاً؟</label>
+                            <input type="text" id="bought_followers" name="bought_followers" placeholder="نعم / لا / لا أعلم...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="engagement_source">مصدر التفاعل الحالي</label>
+                            <input type="text" id="engagement_source" name="engagement_source" placeholder="عضوي / ممول / مسابقات...">
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم الخامس: الهوية والمحتوى -->
                 <div class="section-card">
-                    <h2>القسم الخامس: الهوية والمحتوى</h2>
+                    <h2>القسم الخامس: الهوية البصرية والمحتوى</h2>
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="brand_guide">هل يوجد Brand Guide؟</label>
+                            <label for="brand_guide">هل يتوفر دليل للهوية البصرية (Brand Guide)؟</label>
                             <input type="text" id="brand_guide" name="brand_guide" placeholder="نعم / لا...">
                         </div>
 
                         <div class="form-group">
-                            <label for="brand_assets">هل يوجد لوجو / خطوط / ألوان؟</label>
+                            <label for="brand_assets">توفر عناصر الهوية (شعار / خطوط / ألوان)</label>
                             <input type="text" id="brand_assets" name="brand_assets" placeholder="نعم / لا...">
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="materials_drive_link">رابط جوجل درايف للمواد</label>
-                            <input type="text" id="materials_drive_link" name="materials_drive_link" placeholder="الصق الرابط هنا...">
+                            <label for="materials_drive_link">رابط المواد والمحتوى السابق (إن وجد)</label>
+                            <input type="text" id="materials_drive_link" name="materials_drive_link" placeholder="رابط درايف...">
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="design_reservations">تحفظات على التصاميم</label>
-                            <textarea id="design_reservations" name="design_reservations" rows="3" placeholder="أشياء لا تفضل رؤيتها..."></textarea>
+                            <label for="design_reservations">محددات أو تحفظات بصرية</label>
+                            <textarea id="design_reservations" name="design_reservations" rows="3" placeholder="عناصر أو ألوان يفضل تجنبها في التصاميم..."></textarea>
                         </div>
 
                         <div class="form-group full-width">
-                            <label for="preferred_identity">ألوان وهوية مفضلة</label>
-                            <textarea id="preferred_identity" name="preferred_identity" rows="3" placeholder="صف الأسلوب المفضل..."></textarea>
+                            <label for="preferred_identity">التوجه البصري المفضل</label>
+                            <textarea id="preferred_identity" name="preferred_identity" rows="3" placeholder="رسمي، عصري، مرح، فاخر..."></textarea>
                         </div>
 
                         <div class="form-group">
-                            <label for="content_quantity">عدد البوستات / الريلز</label>
-                            <input type="text" id="content_quantity" name="content_quantity" placeholder="مثال: 15 بوست...">
+                            <label for="content_quantity">حجم المحتوى المتوقع (بوستات/ريلز)</label>
+                            <input type="text" id="content_quantity" name="content_quantity" placeholder="مثال: 15 تصميم و 4 فيديوهات...">
                         </div>
 
                         <div class="form-group">
-                            <label for="content_language">اللغة المطلوبة</label>
-                            <input type="text" id="content_language" name="content_language" placeholder="عربي / إنجليزي...">
+                            <label for="content_language">لغة المحتوى المفضلة</label>
+                            <input type="text" id="content_language" name="content_language" placeholder="عربية (فصحى/عامية) / إنجليزية...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="content_type">نوع المحتوى المفضل</label>
+                            <input type="text" id="content_type" name="content_type" placeholder="تعليمي / ترويجي / ترفيهي...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="content_format">صيغة المحتوى</label>
+                            <input type="text" id="content_format" name="content_format" placeholder="فيديو / صور / نصوص...">
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم السادس: التحديات والخطط -->
                 <div class="section-card">
-                    <h2>القسم السادس: التحديات والخطط</h2>
+                    <h2>القسم السادس: التحديات والخطط المستقبلية</h2>
                     <div class="form-grid">
                         <div class="form-group full-width">
-                            <label for="prev_problems">المشاكل السابقة</label>
-                            <textarea id="prev_problems" name="prev_problems" rows="3" placeholder="وصف لأي مشاكل..."></textarea>
+                            <label for="prev_problems">أبرز التحديات السابقة</label>
+                            <textarea id="prev_problems" name="prev_problems" rows="3" placeholder="مشاكل واجهتها في التسويق أو المبيعات سابقاً..."></textarea>
                         </div>
                         <div class="form-group full-width">
-                            <label for="mistakes_to_avoid">أخطاء لا تحب تكرارها</label>
-                            <textarea id="mistakes_to_avoid" name="mistakes_to_avoid" rows="3" placeholder="أخطاء سابقة..."></textarea>
+                            <label for="mistakes_to_avoid">أخطاء يجب تجنب تكرارها</label>
+                            <textarea id="mistakes_to_avoid" name="mistakes_to_avoid" rows="3" placeholder="دروس مستفادة من تجارب سابقة..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="failed_campaigns">تجارب حملات لم تنجح؟ ولماذا؟</label>
+                            <textarea id="failed_campaigns" name="failed_campaigns" rows="3" placeholder="صف الحملة وسبب الفشل من وجهة نظرك..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="expansion_plan">هل هناك خطة للتوسع؟</label>
+                            <input type="text" id="expansion_plan" name="expansion_plan" placeholder="نعم / لا (فروع، أسواق جديدة)...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="new_product_branch">هل هناك منتج / فرع جديد قادم؟</label>
+                            <input type="text" id="new_product_branch" name="new_product_branch" placeholder="التفاصيل إن وجدت...">
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم السابع: المواد المتوفرة -->
                 <div class="section-card">
-                    <h2>القسم السابع: المواد المتوفرة</h2>
+                    <h2>القسم السابع: المواد التسويقية المتوفرة</h2>
                     <div class="form-grid">
                         <div class="form-group full-width">
-                            <label for="catalog_profile">هل يوجد كتالوج / Profile؟</label>
+                            <label for="catalog_profile">هل يتوفر ملف تعريفي (Profile) أو كتالوج؟</label>
                             <input type="text" id="catalog_profile" name="catalog_profile" placeholder="نعم (الرابط) / لا...">
                         </div>
                         <div class="form-group full-width">
-                            <label for="media_drive_link">صور أو فيديوهات جاهزة؟</label>
-                            <input type="text" id="media_drive_link" name="media_drive_link" placeholder="Drive Link...">
+                            <label for="media_drive_link">مكتبة الصور والفيديوهات (رابط سحابي)</label>
+                            <input type="text" id="media_drive_link" name="media_drive_link" placeholder="Google Drive / Dropbox Link...">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="faq_page">هل توجد صفحة أسئلة شائعة (FAQ)؟</label>
+                            <input type="text" id="faq_page" name="faq_page" placeholder="نعم (الرابط) / لا...">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="previous_content">محتوى سابق (نصوص / فيديوهات / بنرات)</label>
+                            <input type="text" id="previous_content" name="previous_content" placeholder="هل يمكننا استخدامه؟">
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم الثامن: الأمور المالية -->
                 <div class="section-card">
-                    <h2>القسم الثامن: الأمور المالية</h2>
+                    <h2>القسم الثامن: الميزانية والأداء المالي</h2>
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="monthly_budget">الميزانية التسويقية الشهرية</label>
+                            <label for="monthly_budget">الميزانية التسويقية الشهرية المقترحة</label>
                             <input type="text" id="monthly_budget" name="monthly_budget" placeholder="ادخل المبلغ...">
                         </div>
                         <div class="form-group">
-                            <label for="previous_campaigns">هل تم الاشتراك مسبقًا في حملات؟</label>
+                            <label for="previous_campaigns">هل سبق إطلاق حملات ممولة؟</label>
                             <input type="text" id="previous_campaigns" name="previous_campaigns" placeholder="نعم / لا...">
                         </div>
                         <div class="form-group full-width">
-                            <label for="previous_campaign_results">نتائج الحملات السابقة</label>
-                            <textarea id="previous_campaign_results" name="previous_campaign_results" rows="3" placeholder="صف النتائج..."></textarea>
+                            <label for="previous_campaign_results">ملخص نتائج الحملات السابقة</label>
+                            <textarea id="previous_campaign_results" name="previous_campaign_results" rows="3" placeholder="أرقام، انطباعات، تكلفة النتائج..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="preferred_ad_platforms">المنصات الإعلانية المفضلة</label>
+                            <input type="text" id="preferred_ad_platforms" name="preferred_ad_platforms" placeholder="سناب شات، تيك توك، جوجل...">
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم التاسع: تواصل وتنظيم -->
                 <div class="section-card">
-                    <h2>القسم التاسع: تواصل وتنظيم</h2>
+                    <h2>القسم التاسع: آليات التواصل والتنظيم</h2>
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="preferred_communication">وسائل التواصل المفضلة</label>
-                            <input type="text" id="preferred_communication" name="preferred_communication" placeholder="واتساب، ايميل...">
+                            <label for="preferred_communication">قناة التواصل المفضلة</label>
+                            <input type="text" id="preferred_communication" name="preferred_communication" placeholder="واتساب، بريد إلكتروني، اجتماعات...">
                         </div>
+                        
                         <div class="form-group">
-                            <label for="decision_maker">من هو صاحب القرار؟</label>
+                            <label for="customer_support_person">مسؤول الرد على العملاء</label>
+                            <input type="text" id="customer_support_person" name="customer_support_person" placeholder="اسم الشخص أو الفريق...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="moderation_team">هل يوجد فريق Moderation؟</label>
+                            <input type="text" id="moderation_team" name="moderation_team" placeholder="نعم (داخلي / خارجي) / لا...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="decision_maker">صاحب القرار النهائي</label>
                             <input type="text" id="decision_maker" name="decision_maker" placeholder="الاسم والمنصب...">
                         </div>
+
                         <div class="form-group full-width">
-                            <label for="special_requests">تعليمات أو طلبات خاصة</label>
-                            <textarea id="special_requests" name="special_requests" rows="3" placeholder="أي طلبات..."></textarea>
+                            <label for="project_usp">ما يميز المشروع (USP)؟</label>
+                            <textarea id="project_usp" name="project_usp" rows="3" placeholder="نقاط القوة الفريدة..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="project_obstacles">أهم العقبات الحالية؟</label>
+                            <textarea id="project_obstacles" name="project_obstacles" rows="3" placeholder="العقبات التي تواجه المشروع..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="future_challenges">تحديات مستقبلية متوقعة؟</label>
+                            <textarea id="future_challenges" name="future_challenges" rows="3" placeholder="تحديات متوقعة..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="selected_package">هل هناك باقة مختارة؟</label>
+                            <input type="text" id="selected_package" name="selected_package" placeholder="اذكر اسم الباقة إن وجدت...">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="special_requests">متطلبات أو تعليمات خاصة</label>
+                            <textarea id="special_requests" name="special_requests" rows="3" placeholder="أي تفاصيل إضافية تود ذكرها..."></textarea>
                         </div>
                     </div>
                 </div>
 
                 <!-- 🟦 القسم العاشر: الحسابات -->
                 <div class="section-card">
-                    <h2>القسم العاشر: الحسابات والأكسسات</h2>
+                    <h2>القسم العاشر: الحسابات الإعلانية والتقنية</h2>
+                    
+                    <!-- 🔥 مؤشر سحب الجدول (يظهر فقط في الموبايل) -->
+                    <div class="table-scroll-hint">
+                        <svg viewBox="0 0 24 24"><path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"/></svg>
+                        <span>اسحب الجدول يميناً ويساراً لعرض كامل المحتوى</span>
+                    </div>
+
                     <div class="table-container">
                         <table>
                             <thead>
                                 <tr>
                                     <th>المنصة</th>
-                                    <th>الايميل</th>
-                                    <th>حالة الدخول / ملاحظات</th>
-                                    <th>ID / Access</th>
+                                    <th>البريد الإلكتروني / الحساب</th>
+                                    <th>ملاحظات الوصول / حالة الدخول</th>
+                                    <th>معرف الحساب (ID) / الصلاحيات</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Meta</td>
+                                    <td>Meta (Ads/Business)</td>
                                     <td><input type="text" name="meta_email"></td>
                                     <td><input type="text" name="meta_notes"></td>
                                     <td><input type="text" name="meta_access"></td>
                                 </tr>
                                 <tr>
-                                    <td>Snap Ads</td>
+                                    <td>Snapchat Ads</td>
                                     <td><input type="text" name="snap_email"></td>
                                     <td><input type="text" name="snap_notes"></td>
                                     <td><input type="text" name="snap_access"></td>
@@ -354,19 +548,19 @@
                                     <td><input type="text" name="tiktok_access"></td>
                                 </tr>
                                 <tr>
-                                    <td>Instagram</td>
-                                    <td><input type="text" name="insta_email"></td>
-                                    <td><input type="text" name="insta_notes"></td>
-                                    <td><input type="text" name="insta_access"></td>
-                                </tr>
-                                <tr>
                                     <td>Google Ads</td>
                                     <td><input type="text" name="google_email"></td>
                                     <td><input type="text" name="google_notes"></td>
                                     <td><input type="text" name="google_access"></td>
                                 </tr>
                                 <tr>
-                                    <td>المتجر (سلة/زد)</td>
+                                    <td>Google Analytics</td>
+                                    <td><input type="text" name="analytics_email"></td>
+                                    <td><input type="text" name="analytics_notes"></td>
+                                    <td><input type="text" name="analytics_access"></td>
+                                </tr>
+                                <tr>
+                                    <td>لوحة تحكم المتجر (سلة/زد/ووردبريس)</td>
                                     <td><input type="text" name="store_email"></td>
                                     <td><input type="text" name="store_notes"></td>
                                     <td><input type="text" name="store_access"></td>
@@ -378,9 +572,9 @@
 
                 <!-- 🟦 ملاحظات إضافية -->
                 <div class="section-card">
-                    <h2>القسم الحادي عشر: ملاحظات إضافية</h2>
+                    <h2>القسم الحادي عشر: ملاحظات ختامية</h2>
                     <div class="form-group full-width">
-                        <textarea id="additional_notes" name="additional_notes" rows="5" placeholder="اكتب أي ملاحظات أخرى..."></textarea>
+                        <textarea id="additional_notes" name="additional_notes" rows="5" placeholder="مساحة حرة لأي إضافات..."></textarea>
                     </div>
                 </div>
 
@@ -414,6 +608,7 @@
         </div>
     </main>
 
+    <!-- External JS script -->
     <script src="script.js"></script>
 
 </body>
